@@ -20,5 +20,7 @@ namespace amarin.Data
         }
 
         public System.Data.Entity.DbSet<amarin.Models.Student> Students { get; set; }
+
+        public System.Data.Entity.DbSet<amarin.Models.Class> Classes { get; set; }
     }
 }

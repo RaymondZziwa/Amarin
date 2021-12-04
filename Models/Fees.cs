@@ -7,6 +7,6 @@ namespace amarin.Models
 {
     public class Fees
     {
-        public int FeesBal { get; set; }
+        public int FeesBalance { get; set; }
     }
 }

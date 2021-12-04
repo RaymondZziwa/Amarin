@@ -121,8 +121,16 @@ C:\Users\Zziwa Raymond Ian\source\repos\amarin\bin\System.Web.WebPages.Razor.xml
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\bin\Newtonsoft.Json.xml
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\bin\Antlr3.Runtime.pdb
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.csproj.AssemblyReference.cache
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.csproj.CoreCompileInputs.cache
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.csproj.CopyComplete
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.dll
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.pdb
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.InitialCreate.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.csproj.GenerateResource.cache
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.AddFeestoStudent.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.Class.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.StudentMigration.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.updtes.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.StudentUpdate.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.std.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.lastupdate.resources

@@ -12,6 +12,8 @@ namespace amarin.Models
         public string SecondName { get; set; }
         public string Gender { get; set; }
         public int age { get; set; }
+        public Fees fees { get; set; }
+        public Class Class { get; set; }
 
     }
 }

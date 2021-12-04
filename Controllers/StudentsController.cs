@@ -47,7 +47,7 @@ namespace amarin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "StudentId,FirstName,SecondName,Gender,age")] Student student)
+        public ActionResult Create([Bind(Include = "StudentId,FirstName,SecondName,Gender,age,fees")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace amarin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "StudentId,FirstName,SecondName,Gender,age")] Student student)
+        public ActionResult Edit([Bind(Include = "StudentId,FirstName,SecondName,Gender,age,fees")] Student student)
         {
             if (ModelState.IsValid)
             {

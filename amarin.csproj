@@ -202,6 +202,39 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111301416395_InitialCreate.cs" />
+    <Compile Include="Migrations\202111301416395_InitialCreate.Designer.cs">
+      <DependentUpon>202111301416395_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112040137191_AddFeestoStudent.cs" />
+    <Compile Include="Migrations\202112040137191_AddFeestoStudent.Designer.cs">
+      <DependentUpon>202112040137191_AddFeestoStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112040208036_Class.cs" />
+    <Compile Include="Migrations\202112040208036_Class.Designer.cs">
+      <DependentUpon>202112040208036_Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112040602563_Student-Migration.cs" />
+    <Compile Include="Migrations\202112040602563_Student-Migration.Designer.cs">
+      <DependentUpon>202112040602563_Student-Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112040619570_updtes.cs" />
+    <Compile Include="Migrations\202112040619570_updtes.Designer.cs">
+      <DependentUpon>202112040619570_updtes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112040626153_Student-Update.cs" />
+    <Compile Include="Migrations\202112040626153_Student-Update.Designer.cs">
+      <DependentUpon>202112040626153_Student-Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112040631028_std.cs" />
+    <Compile Include="Migrations\202112040631028_std.Designer.cs">
+      <DependentUpon>202112040631028_std.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112040637379_lastupdate.cs" />
+    <Compile Include="Migrations\202112040637379_lastupdate.Designer.cs">
+      <DependentUpon>202112040637379_lastupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Class.cs" />
     <Compile Include="Models\Fees.cs" />
     <Compile Include="Models\SchoolContext.cs" />
@@ -249,6 +282,11 @@
     <Content Include="Views\Students\Details.cshtml" />
     <Content Include="Views\Students\Edit.cshtml" />
     <Content Include="Views\Students\Index.cshtml" />
+    <Content Include="Views\Classes\Create.cshtml" />
+    <Content Include="Views\Classes\Delete.cshtml" />
+    <Content Include="Views\Classes\Details.cshtml" />
+    <Content Include="Views\Classes\Edit.cshtml" />
+    <Content Include="Views\Classes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -265,6 +303,32 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202111301416395_InitialCreate.resx">
+      <DependentUpon>202111301416395_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112040137191_AddFeestoStudent.resx">
+      <DependentUpon>202112040137191_AddFeestoStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112040208036_Class.resx">
+      <DependentUpon>202112040208036_Class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112040602563_Student-Migration.resx">
+      <DependentUpon>202112040602563_Student-Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112040619570_updtes.resx">
+      <DependentUpon>202112040619570_updtes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112040626153_Student-Update.resx">
+      <DependentUpon>202112040626153_Student-Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112040631028_std.resx">
+      <DependentUpon>202112040631028_std.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112040637379_lastupdate.resx">
+      <DependentUpon>202112040637379_lastupdate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
