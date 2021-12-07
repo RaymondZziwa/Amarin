@@ -134,3 +134,5 @@ C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.updte
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.StudentUpdate.resources
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.std.resources
 C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.lastupdate.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.Migrations.controler.resources
+C:\Users\Zziwa Raymond Ian\source\repos\amarin\obj\Debug\amarin.csproj.AssemblyReference.cache

@@ -10,5 +10,6 @@ namespace amarin.Models
     {
         [Key]
         public string ClassName { get; set; }
+        public List<Student> students { get; set; }
     }
 }

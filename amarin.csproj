@@ -234,10 +234,14 @@
     <Compile Include="Migrations\202112040637379_lastupdate.Designer.cs">
       <DependentUpon>202112040637379_lastupdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112050933579_controler.cs" />
+    <Compile Include="Migrations\202112050933579_controler.Designer.cs">
+      <DependentUpon>202112050933579_controler.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Class.cs" />
     <Compile Include="Models\Fees.cs" />
-    <Compile Include="Models\SchoolContext.cs" />
+    <Compile Include="Models\SchoolDBContext.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -328,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112040637379_lastupdate.resx">
       <DependentUpon>202112040637379_lastupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112050933579_controler.resx">
+      <DependentUpon>202112050933579_controler.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
